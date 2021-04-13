@@ -4,9 +4,3 @@ Description: github-codepipeline-app
 Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
-    Name: HeyThere
-Outputs:
-  BucketName:
-    Value:
-      Ref: S3Bucket
-    Description: Name of the sample Amazon S3 bucket.
